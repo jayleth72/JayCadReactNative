@@ -1,9 +1,9 @@
 // Component for displaying buttons for a Menu
 import React from 'react';
 import { ScrollView, Text } from 'react-native';
-import { Card, CardSection, Button, PageHeading } from './common';
+import { Card, CardSection, Button, PageHeading } from './components/common';
 
-const MainMenu = () => {
+const MainMenuComponent = () => {
   return (
     <ScrollView>
       <Card>
@@ -55,4 +55,4 @@ const styles = {
   }
 }
 
-export { MainMenu };
+export default MainMenuComponent;
